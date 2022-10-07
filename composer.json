@@ -1,0 +1,20 @@
+{
+    "name": "divinity76/php-httpreadfile",
+    "description": "readfile() with 304 Not Modified and 206 Partial Content support",
+    "keywords": [
+        "readfile",
+        "HTTP 206 Partial Content",
+        "HTTP 304 Not Modified"
+    ],
+    "homepage": "https://github.com/divinity76/php-httpreadfile",
+    "type": "library",
+    "license": "Unlicense",
+    "require": {
+        "php": ">=7.1"
+    },
+    "autoload": {
+        "files": [
+            "src/httpreadfile/httpreadfile.php"
+        ]
+    }
+}
